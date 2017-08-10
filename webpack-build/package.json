@@ -1,0 +1,20 @@
+{
+  "name": "webpack-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "single": "webpack --config bin/webpack-single.config.js",
+    "introduction": "webpack --config bin/webpack-introduction.config.js",
+    "repeat": "webpack --config bin/webpack-repeat.config.js",
+    "array": "webpack --config bin/webpack-array.config.js",
+    "common": "webpack --config bin/webpack-common.config.js",
+    "ensure": "webpack --config bin/webpack-ensure.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.5.2"
+  }
+}
